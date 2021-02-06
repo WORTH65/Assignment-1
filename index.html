@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Breakfast near you | Mumbai</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="img/favicon.png">
+	<meta content="text/html; charset=UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+</head>
+<body>
+	<header>
+		<div class="head-container">
+			<div class="float-child">
+				<img src="img/favicon.png" alt="Edureka logo!">
+			</div>
+			<div class="float-right">
+				<a href="#" class="btn btn-left">Login</a>
+				<a href="#" class="btn btn-right">Create an account</a>
+			</div>
+		</div>
+	</header>
+
+	<main>
+
+		<!-- Main Container -->
+
+		<div class="container">
+
+			<h1>Breakfast Places in Mumbai</h1>
+
+			<div class="main">
+
+				<!-- Choice Menu -->
+
+				<div class="choice-menu">
+					<h3>Filters</h3>
+
+					<p style="font-weight: 600">Select Location</p>
+					<select name="type">
+						<option value='default'>--Select Location--</option>
+						<option value="mumbai" style="color: #213665">Mumbai</option>
+						<option value="delhi" style="color: #213665">Delhi</option>
+						<option value="ahemadabad" style="color: #213665">Ahemdabad</option>
+					</select><br><br>
+
+					<p style="font-weight: 600">Cuisine</p>
+					<input type="checkbox" id="cuisine1" name="cuisine1" value="north">
+					<label for="cuisine1">North Indian</label><br>
+					<input type="checkbox" id="cuisine2" name="cuisine2" value="south">
+					<label for="cuisine2">South Indian</label><br>
+					<input type="checkbox" id="cuisine3" name="cuisine3" value="chinese">
+					<label for="cuisine3">Chinese</label><br>
+					<input type="checkbox" id="cuisine4" name="cuisine4" value="fast">
+					<label for="cuisine4">Fast Food</label><br>
+					<input type="checkbox" id="cuisine5" name="cuisine5" value="street">
+					<label for="cuisine5">Street Food</label><br><br>
+
+					<p style="font-weight: 600">Cost for Two</p>
+					<input type="radio" id="less" name="cost" value="less">
+					<label for="less">Less than ₹ 500</label><br>
+					<input type="radio" id="500" name="cost" value="500">
+					<label for="500">₹ 500 to ₹ 1000</label><br>
+					<input type="radio" id="1000" name="cost" value="1000">
+					<label for="1000">₹ 1000 to ₹ 1500</label><br>
+					<input type="radio" id="1500" name="cost" value="1500">
+					<label for="1500">₹ 1500 to ₹ 2000</label><br>
+					<input type="radio" id="more" name="cost" value="more">
+					<label for="more">₹ 2000+</label><br><br>
+
+					<p style="font-weight: 600">Sort</p>
+					<input type="radio" id="low" name="sort" value="low">
+					<label for="low">Price: Low to High</label><br>
+					<input type="radio" id="high" name="sort" value="high">
+					<label for="high">Price: High to Low</label><br><br>
+				</div>
+
+				<!-- Info on the side -->
+
+				<div class="main-info">
+					<div class="above">
+						<div class="wrapper">
+							<img src="img/cake.jpg" alt="An appetizizng cake.">
+							<div class="text">
+								<h2>The Big Chill Cakery</h2>
+								<h4>FORT</h4>
+								<p>Shop 1, Plot D, Samruddhi Complex, Chincholi ..</p>
+							</div>
+						</div>
+						<hr>
+						<div class="wrapper">
+							<div>
+								<p>CUISINES:</p>
+								<p>COST FOR TWO:</p>
+							</div>
+							<div style="font-weight: 600; margin-left: 45px;">
+								<p>Bakery</p>
+								<p>₹ 700</p>
+							</div>
+						</div>
+					</div>
+					<div class="below">
+						<div class="wrapper">
+							<img src="img/bake.jpg" alt="An appetizizng snack.">
+							<div class="text">
+								<h2>The Bake Shop</h2>
+								<h4>FORT</h4>
+								<p>Shop 1, Plot D, Samruddhi Complex, Chincholi ..</p>
+							</div>
+						</div>
+						<hr>
+						<div class="wrapper">
+							<div>
+								<p>CUISINES:</p>
+								<p>COST FOR TWO:</p>
+							</div>
+							<div style="font-weight: 600; margin-left: 45px;">
+								<p>Bakery</p>
+								<p>₹ 700</p>
+							</div>
+						</div>
+					</div>
+					<div class="serial-numbers">
+						<span class="def"><i class="fas fa-chevron-left"></i></span>
+						<span class="active" style="padding: 4px 10px;">1</span>
+						<span style="padding: 4px 9px;">2</span>
+						<span>3</span>
+						<span>4</span>
+						<span>5</span>
+						<span><i class="fas fa-chevron-right"></i></span>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</main>
+</body>
+</html>

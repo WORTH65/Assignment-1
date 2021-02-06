@@ -1,0 +1,142 @@
+/* Full Page margin removal */
+body, html {
+	margin: 0;
+	padding: 0;
+	color: #213665;
+	font-family: poppins, sans-serif;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+
+/* Components */
+.head-container {
+	max-width: 1448px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 24px;
+}
+.container {
+	max-width: 1416px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 24px;	
+}
+.btn {
+	padding: 14px 32px;
+}
+.float-child {
+    float: left;
+}
+.float-right {
+	float: right;
+	margin-top: 2pc;
+}
+
+
+/* Header */
+header {
+	width: 100%;
+	background-color: #ce0505;
+	color: white;
+	display: inline-block;
+}
+header img {
+	height: 80px;
+	margin-top: 5px;
+}
+.btn-left:hover {
+	border: 1px solid white;
+	border-radius: 6px;
+}
+.btn-right {
+	border: 1px solid white;
+	border-radius: 6px;
+	margin-left: 16px;
+}
+.btn-right:hover {
+	background-color: white;
+	color: #ce0505;
+	font-weight: bold;
+	transition: .5s ease;
+}
+
+/* Main Page Content */
+h2 {
+	margin: 8px 0 16px 0;
+}
+h3, h4, h5, h6 {
+	margin: 0 0 16px 0;
+}
+.choice-menu {
+	padding: 16px 24px 12px 24px;
+	box-shadow: 1px 1px 6px lightgrey;
+	width: 240px;
+}
+select {
+	padding: 12px 10px;
+	width: 100%;
+	color: #9ea5b2;
+	border-color: #9ea5b2;
+	border-radius: 3px;
+}
+select:hover {
+	cursor: pointer;
+}
+.main {
+	display: flex;
+}
+.above, .below {
+	padding: 24px 24px 16px 28px;
+	box-shadow: 1px 1px 6px lightgrey;
+	margin-left: 40px;
+	margin-bottom: 40px;
+	width: 900px;
+}
+.serial-numbers {
+	text-align: center;
+}
+.serial-numbers span {
+	border: 1px solid #8a97a8;
+	color: #8a97a8;
+	border-radius: 4px;
+	padding: 4px 8px;
+	margin: 0 3px;
+}
+.serial-numbers span:hover {
+	background-color: #8a97a8;
+	color: white;
+	cursor: pointer;
+}
+.active {
+	background-color: #8a97a8;
+	color: white!important;
+	cursor: pointer;
+}
+.def {
+	color: lightgrey!important; 
+	border-color: lightgrey!important;
+}
+.def:hover {
+	cursor: auto!important;
+	background-color: transparent!important;
+	color: lightgrey!important;
+}
+.wrapper {
+	display: flex;
+}
+.above img {
+	height: 120px;
+	border-radius: 24px;
+}
+.below img {
+	height: 120px;
+	border-radius: 24px;
+}
+.text {
+	margin-left: 32px;
+}
+hr {
+	border-color: rgba(0, 0, 0, 0.3);
+}
